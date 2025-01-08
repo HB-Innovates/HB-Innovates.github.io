@@ -1,1 +1,156 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleHusain Bagichawala Portfoliotitle
+    link href=httpsfonts.googleapis.comcss2family=Robotowght@400;700&display=swap rel=stylesheet
+    style
+        body {
+            font-family 'Roboto', sans-serif;
+            margin 0;
+            padding 0;
+            background-color #f4f4f9;
+            color #333;
+        }
+        header {
+            background #333;
+            color #fff;
+            padding 1rem 0;
+            text-align center;
+        }
+        header nav {
+            margin-top 0.5rem;
+        }
+        header nav a {
+            color #fff;
+            text-decoration none;
+            margin 0 1rem;
+            font-weight bold;
+        }
+        header nav ahover {
+            text-decoration underline;
+        }
+        section {
+            padding 2rem;
+            text-align center;
+        }
+        #about {
+            background #e8e8ee;
+        }
+        .project, .experience, .education {
+            border 1px solid #ccc;
+            margin 1rem;
+            padding 1rem;
+            border-radius 8px;
+        }
+        #contact form {
+            max-width 500px;
+            margin 0 auto;
+            display flex;
+            flex-direction column;
+            gap 1rem;
+        }
+        #contact input, #contact textarea {
+            padding 0.5rem;
+            border 1px solid #ccc;
+            border-radius 4px;
+        }
+        #contact button {
+            padding 0.7rem;
+            background #333;
+            color #fff;
+            border none;
+            border-radius 4px;
+            cursor pointer;
+        }
+        #contact buttonhover {
+            background #555;
+        }
+        footer {
+            background #333;
+            color #fff;
+            padding 1rem;
+            text-align center;
+        }
+    style
+head
+body
 
+header
+    h1Husain Bagichawala Portfolioh1
+    nav
+        a href=#aboutAbout Mea
+        a href=#educationEducationa
+        a href=#projectsProjectsa
+        a href=#experienceExperiencea
+        a href=#contactContacta
+    nav
+header
+
+section id=about
+    h2About Meh2
+    pPassionate but pragmatic, great with people, organization, and the complex dance between them. I like to contribute to technology that makes people's lives easier.p
+section
+
+section id=education
+    h2Educationh2
+    div class=education
+        h3Master of Science in Autonomy Technologiesh3
+        pFriedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germanyp
+    div
+    div class=education
+        h3Bachelor of Technology in Automobile Engineering with Specialization in Automotive Electronicsh3
+        pSRM Institute of Science and Technology, Kancheepuram, Indiap
+    div
+section
+
+section id=projects
+    h2Projectsh2
+    div class=project
+        h3Project Title 1h3
+        pDescription of the project, technologies used, and any other relevant details.p
+    div
+    div class=project
+        h3Project Title 2h3
+        pDescription of the project, technologies used, and any other relevant details.p
+    div
+    !-- Add more projects as needed --
+section
+
+section id=experience
+    h2Work Experienceh2
+    div class=experience
+        h3Intern - Maruti Suzuki India Limitedh3
+        pWorked on User Management service for Identifying, Authenticating, and Authorizing users through the Infotainment HMI present in cars. Automated test cases and developed a GUI using Python and Tkinter.p
+    div
+    div class=experience
+        h3Intern - Tata Motorsh3
+        pDeveloped software for over-the-air updates for vehicles, focusing on upgrading ECUs through Vehicle Domain Controller (VDC) on a Hypervisor environment.p
+    div
+    div class=experience
+        h3Trainee - Vector India Pvt Ltdh3
+        pCompleted technical training, working on Linux GPIO device drivers, CAN protocol implementation, and other automotive software projects.p
+    div
+section
+
+section id=contact
+    h2Contact Meh2
+    form action=httpsformspree.iofyour-form-id method=POST
+        input type=text name=name placeholder=Your Name required
+        input type=email name=email placeholder=Your Email required
+        textarea name=message rows=5 placeholder=Your Message requiredtextarea
+        button type=submitSend Messagebutton
+    form
+section
+
+footer
+    p&copy; 2025 Husain Bagichawala. All rights reserved.p
+footer
+
+body
+html
+
+
+with open('index.html', 'w', encoding='utf-8') as f
+    f.write(html_content)
